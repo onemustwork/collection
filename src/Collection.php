@@ -16,7 +16,7 @@ use JsonSerializable;
 class Collection implements Countable, IteratorAggregate, ArrayAccess, JsonSerializable
 {
     /** @var array */
-    private $items = [];
+    protected $items = [];
 
     /**
      * @param array $items
